@@ -1,0 +1,69 @@
+/* Estilos gerais para a calculadora */
+.calculadora {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Estilos para a área de exibição */
+  .display {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 24px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Estilos para os botões da calculadora */
+  .button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para o botão de igual */
+  .equal-button {
+    background-color: #f39c12;
+  }
+  
+  /* Estilos para os botões de operação */
+  .operator-button {
+    background-color: #3498db;
+  }
+  
+  /* Estilos para os botões de números */
+  .number-button {
+    background-color: #95a5a6;
+  }
+  
+  /* Estilos para o botão de limpar */
+  .clear-button {
+    background-color: #e74c3c;
+  }
+  
+  /* Estilo para os botões de ponto decimal e botão de sinal */
+  .decimal-button,
+  .sign-button {
+    background-color: #2ecc71;
+  }
+  
+  /* Estilo quando um botão é pressionado */
+  .button:active {
+    transform: scale(0.95);
+  }
+  

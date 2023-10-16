@@ -1,0 +1,50 @@
+/* CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('tela.jpg');
+    background-color: transparent;
+    margin: 20;
+    padding: 110;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+}
+
+.login-container {
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 100px;
+    box-shadow: transparent;
+    text-align: center;
+}
+
+.login-container h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 17px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 20px;
+    border:0px solid #ccc;
+    border-radius: 50px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 13px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
